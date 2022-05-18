@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 
-import {IComments} from "../../models/IComments";
+import {CommentInterface} from "../../interfaces/comment.interface";
 import {CommentsService} from "../../services/comments.service";
 
 @Component({
@@ -10,7 +10,7 @@ import {CommentsService} from "../../services/comments.service";
 })
 export class CommentsComponent implements OnInit {
 
-  comments: IComments[];
+  comments: CommentInterface[];
 
   constructor(private commentService: CommentsService) {
   }
