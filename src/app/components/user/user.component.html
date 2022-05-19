@@ -1,9 +1,4 @@
 <p>
   {{user.id}} -- {{user.name}}
-<!--  {{user.company |json}}-->
-
-
-<!--  <a routerLink="user-details/{{user.id}}" >detail</a>-->
-  <a [routerLink]="['user-details', user.id]" >detail</a>
-
+  <a [routerLink]="['user-details',user.id]" [state]="{data:user}">Details</a>
 </p>
