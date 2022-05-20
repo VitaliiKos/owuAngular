@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
 
-import {IPost} from "../interfaces/post.interface";
+import {IPost} from "../interfaces";
 
 @Injectable({
   providedIn: 'root'

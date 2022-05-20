@@ -1,8 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ActivatedRoute} from "@angular/router";
 
-import {IComment} from "../../interfaces/comment.interface";
-import {CommentService} from "../../services/comment.service";
+import {IComment} from "../../interfaces";
+
 
 @Component({
   selector: 'app-comment',
@@ -14,8 +13,7 @@ export class CommentComponent implements OnInit {
   @Input()
   comment: IComment;
 
-  constructor(private activatedRoute: ActivatedRoute,
-              private userService: CommentService) {
+  constructor() {
   }
 
   ngOnInit(): void {
