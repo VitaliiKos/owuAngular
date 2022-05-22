@@ -1,0 +1,9 @@
+.photo{
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid silver;
+  margin: 5px;
+}

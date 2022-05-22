@@ -1,0 +1,11 @@
+.home{
+  display: flex;
+  justify-content: center;
+  height: 95vh;
+
+  background: #cedbe9; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #cedbe9 0%, #6199c7 25%, #3a84c3 51%, #419ad6 59%, #4bb8f0 71%, #aac5de 78%, #3a8bc2 84%, #26558b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #cedbe9 0%,#6199c7 25%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#aac5de 78%,#3a8bc2 84%,#26558b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #cedbe9 0%,#6199c7 25%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#aac5de 78%,#3a8bc2 84%,#26558b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
