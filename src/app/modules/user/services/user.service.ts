@@ -2,6 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {delay, Observable} from 'rxjs';
 
+
 import {IUser} from '../interfaces';
 import {urls} from "../../../constant";
 
@@ -14,10 +15,10 @@ export class UserService {
   }
 
   getAll(): Observable<IUser[]> {
-    return this.httpClient.get<IUser[]>(urls.users)
+    return this.httpClient.get<IUser[]>(urls.users);
   }
 
   getById(id: string): Observable<IUser> {
-    return this.httpClient.get<IUser>(`${urls.users}/${id}`)
+    return this.httpClient.get<IUser>(`${urls.users}/${id}`).pipe(delay(2000));
   }
 }

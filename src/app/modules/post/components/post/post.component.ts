@@ -14,7 +14,7 @@ export class PostComponent implements OnInit {
   @Input()
   post: IPost
 
-  constructor(private router:Router, private activatedRoute:ActivatedRoute) {
+  constructor(private router: Router, private activatedRoute: ActivatedRoute) {
   }
 
   ngOnInit(): void {

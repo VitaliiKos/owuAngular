@@ -12,6 +12,7 @@ import {UserService} from "../../services";
 export class UsersComponent implements OnInit {
 
   users: IUser[];
+
   constructor(private userService: UserService) {
   }
 
