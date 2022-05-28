@@ -1,4 +1,5 @@
 <app-header></app-header>
+<div *ngIf="loading$|async">Loading...</div>
 
 <div class="main_block">
   <router-outlet></router-outlet>
